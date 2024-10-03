@@ -27,7 +27,7 @@ const Heading = () => {
         </details>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link href="/blogs">Blogs</Link>
       </li>
     </>
   );
