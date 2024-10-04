@@ -12,7 +12,7 @@ const BlogsPages = async () => {
           className="px-5 py-4 mb-10 border border-orange-600 hover:border-purple-500"
           key={user.id}
         >
-          <h3>{user.title}</h3>
+          <h3 className="text-xl font-bold text-black">{user.title}</h3>
           <p>{user.body}</p>
           <Link href={`/blogs/${user.id}`} className="mt-5 btn-outline btn">
             View Details
